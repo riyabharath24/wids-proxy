@@ -14,7 +14,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      'https://api-inference.huggingface.co/v1/chat/completions',
+      'https://router.huggingface.co/v1/chat/completions',
       {
         method: 'POST',
         headers: {
